@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Hobby</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #2c3e50, #34495e);
+            padding: 30px;
+            min-height: 100vh;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .gallery img {
+            border: 8px solid white;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        
+        .gallery img:hover {
+            transform: scale(1.05) rotate(2deg);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+            border-color: #3498db;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+        
+        .navigation a {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 50px;
+            display: inline-block;
+            margin: 10px;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+        
+        .navigation a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            background: linear-gradient(135deg, #764ba2, #667eea);
+        }
+        
+        .navigation a:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Photography Contents</h1>
+    
+    <div class="gallery">
+        <img src="123 (1).jpg" height="400" width="600" title="Aesthetic Shot" alt="Aesthetic Shot" />
+        <img src="122.jpg" height="400" width="600" title="Morning View" alt="Morning View" />
+        <img src="111.jpg" height="400" width="600" title="River View" alt="River View" />
+        <img src="7878.jpg" height="400" width="600" title="Portrait Shot" alt="Portrait Shot" />
+        <img src="0099.jpg" height="400" width="600" title="Streets Shots" alt="Streets Shots" />
+        <img src="000.jpg" height="400" width="600" title="Angle Shots" alt="Angle Shots" />
+    </div>
+    
+    <div class="navigation">
+        <a href="file:///C:/Users/karmo/OneDrive/Desktop/HyperLink/test3.html">NEXT PAGE</a>
+        <a href="file:///C:/Users/karmo/OneDrive/Desktop/HyperLink/Hyperlink.html">HOME</a>
+        <a href="file:///C:/Users/karmo/OneDrive/Desktop/HyperLink/Test%201.html">🔙 Back</a>
+    </div>
+</body>
+</html>
